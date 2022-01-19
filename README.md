@@ -90,6 +90,6 @@ No known issues.
 ## Changelog
 See the [Changelog](CHANGELOG.md)
 
-### Contribute
+## Contribute
 
 See the [Contribution Guidelines](CONTRIBUTE.md)
