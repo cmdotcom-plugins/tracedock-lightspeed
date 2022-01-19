@@ -28,7 +28,7 @@ The code of a Lighspeed shop can be modified by navigating to Design > Theme edi
 In the side bar you can see all the files you can modify in the template. 
 The <head> can be found either in the file 'head.rain' in the folder 'snippets' or 'fixed.rain' under the tab 'layout'.
 
-![Adjusting the <head> text found in the file 'head.rain'](https://github.com/cmdotcom/tracedock-lightspeed/blob/main/static/step1.png?raw=true)
+![Adjusting the <head> text found in the file 'head.rain'](https://github.com/cmdotcom-plugins/tracedock-lightspeed/blob/main/static/step1.png?raw=true)
 
 In this file you can add the dataLayer event within the tags <head> and </head>. 
 
@@ -51,7 +51,7 @@ This file initiates the curl command to post the transaction data from Lightspee
 
 In this file 3 variables above the page (line 6 to 8) must be updated with your shop specific data:
 
-![Adjusting variables in `tracedock.php`](https://github.com/cmdotcom/tracedock-lightspeed/blob/main/static/step2a_tracedock.png?raw=true)
+![Adjusting variables in `tracedock.php`](https://github.com/cmdotcom-plugins/tracedock-lightspeed/blob/main/static/step2a_tracedock.png?raw=true)
 
 * __$url__ - This is the url of the TraceDock endpoint that can be found in the TraceDock portal under the transaction event.
 * __$key__ - This is the Lightspeed API key, accessible by the owner via Settings > Developers.
@@ -65,7 +65,7 @@ This file initiates the webhook to make the API after the transaction is complet
 
 In this file 3 variables above the page (line 4 to 6) must be updated with your shop specific data:
 
-![Adjusting variables in `tracedock.php`](https://github.com/cmdotcom/tracedock-lightspeed/blob/main/static/step2b_createwebhook.png?raw=true)
+![Adjusting variables in `tracedock.php`](https://github.com/cmdotcom-plugins/tracedock-lightspeed/blob/main/static/step2b_createwebhook.png?raw=true)
 
 * __$url__ - This is the URL of the file you created under step _2a_, called `tracedock.php`.
 * __$key__ - This is the Lightspeed API key, accessible by the owner via Settings > Developers.
