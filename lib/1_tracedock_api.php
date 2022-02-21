@@ -60,7 +60,7 @@
 				$products[$index] = [
 					'id' => $product['id'],
 					'name' => $product['productTitle'],
-					'price' => $product['priceExcl'],
+					'price' => $product['basePriceExcl'],
 					'quantity' => $product['quantityOrdered'],
 					'brand' => $product['brandTitle'] ? $product['brandTitle'] : '',
 					'category' => '',
